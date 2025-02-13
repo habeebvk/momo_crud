@@ -174,7 +174,7 @@ and life helper\"""", style:GoogleFonts.montserrat(fontSize: 16,color: textColor
                                         onPressed: (){
                                           ser.updateData(nameController.text,placeController.text,docid);
                                           Navigator.of(context).pop;
-                                        }, child: Text("Update",style:TextStyle(color: textColor),))
+                                        }, child: Text("Update",style:TextStyle(color: Colors.white),))
                                     ],
                                         )
                                     ); 
