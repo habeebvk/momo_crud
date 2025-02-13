@@ -145,7 +145,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                       ),
                       Row(
                         children: [
-                          SizedBox(width: 60,),
+                          SizedBox(width: 30,),
                           Text("Already have an account?",style: TextStyle(color: textColor),),
                           TextButton(onPressed: (){
                             Get.to(LoginScreen());

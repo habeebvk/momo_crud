@@ -33,7 +33,7 @@ class _CategoryScreenState extends State<CategoryScreen> {
           padding: const EdgeInsets.all(10),  
           child: CircleAvatar(  
             radius: 30,  
-            backgroundImage: AssetImage("bohemian-man-with-his-arms-crossed.jpg"),  
+            backgroundImage: AssetImage("assets/bohemian-man-with-his-arms-crossed.jpg"),  
           ),  
         ),  
         title: Text("Categories", style: TextStyle(color: textColor)),  
@@ -60,14 +60,15 @@ class _CategoryScreenState extends State<CategoryScreen> {
                     SizedBox(width: 20,),  
                     CircleAvatar(  
                       radius: 30,  
-                      backgroundImage: AssetImage("bohemian-man-with-his-arms-crossed.jpg"),  
+                      backgroundImage: AssetImage("assets/bohemian-man-with-his-arms-crossed.jpg"),  
                     ),  
                     SizedBox(width: 20,),  
                     Column(  
                       mainAxisAlignment: MainAxisAlignment.center,  
                       crossAxisAlignment: CrossAxisAlignment.start,  
                       children: [  
-                        Text("\"The memory is a shield and life helper\"", style:GoogleFonts.montserrat(fontSize: 16,color: textColor)),  
+                        Text("""\"The memory is a shield 
+and life helper\"""", style:GoogleFonts.montserrat(fontSize: 16,color: textColor)),  
                         SizedBox(height: 10,),  
                         Text("Tammin Al Barghouthi",style: TextStyle(color: textColor),)  
                       ],  

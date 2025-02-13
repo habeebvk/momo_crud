@@ -4,6 +4,7 @@ import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
 import 'package:mimo/firebase_options.dart';
 import 'package:mimo/screens/categories.dart';
+import 'package:mimo/screens/forgot_password.dart';
 import 'package:mimo/screens/login.dart';
 import 'package:mimo/screens/settings.dart';
 import 'package:mimo/screens/signup.dart';

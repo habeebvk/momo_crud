@@ -28,7 +28,8 @@ class _LoginScreenState extends State<LoginScreen> {
         child: Center(
           child: Column(
             children: [
-              const Image(image: AssetImage("assets/mimo.png")),
+              SizedBox(height: 100,),
+              const Image(image: AssetImage("assets/mimo.png"),width: 500,height: 200,),
               Container(
                 width: MediaQuery.of(context).size.width/1.5,
                 child: Form(
@@ -95,7 +96,7 @@ class _LoginScreenState extends State<LoginScreen> {
                       ),
                       Row(
                         children: [
-                          const SizedBox(width: 60,),
+                          const SizedBox(width: 30,),
                           Text("Don't have an account?",style: TextStyle(color: textColor),),
                           TextButton(onPressed: (){
                             Get.to(SignUpScreen());

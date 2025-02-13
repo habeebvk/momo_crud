@@ -30,6 +30,7 @@ class _TaskScreenState extends State<TaskScreen> {
                 return AlertDialog(
                     title: Text("New Task",style: TextStyle(color: textColor),),
                     content: Column(
+                      mainAxisSize: MainAxisSize.min,
                         children: [
                             TextField(
                                 controller: taskController,
